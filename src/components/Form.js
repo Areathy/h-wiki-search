@@ -89,7 +89,7 @@ export default class Form extends React.Component {
                }
             }
          ).catch(e => {
-            return this.setState({ error: 'Could not search', loader: null })
+            return this.setState({ error: 'No result found', loader: null })
          })
    }
 
